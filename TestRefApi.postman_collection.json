@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "bd5c70f3-9825-4320-a1eb-593e19c668d8",
+		"name": "TestRefApi",
+		"description": "---\n\n## **TestRef API - Коллекция Postman**\n\n### **Описание проекта:**\n\nПроект представляет собой систему с реферальными кодами, где пользователи могут регистрироваться, использовать коды приглашений для активации реферальных привилегий, а также отслеживать, кто использовал их собственные коды. Этот API обеспечивает функциональность для регистрации пользователей, активации реферальных кодов и получения информации о профиле пользователя и его рефералах.\n\nEndFragment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36729419"
+	},
+	"item": [
+		{
+			"name": "User Register",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"description": "**Описание:** Этот запрос используется для входа в систему и получения токена авторизации (Bearer Token). Токен будет использован для авторизации в последующих запросах, которые требуют защищенного доступа.\n\n**Пример ответа:**\n\n``` json\njson{\n  \"access\": \"<your_access_token>\"\n}\n\n ```"
+			},
+			"response": []
+		},
+		{
+			"name": "Active Invite Cpde",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
